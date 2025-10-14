@@ -635,11 +635,11 @@ const file_proto_task_task_proto_rawDesc = "" +
 	".task.TaskR\x05tasks\x12\x12\n" +
 	"\x04page\x18\x02 \x01(\rR\x04page\x12\x1b\n" +
 	"\tpage_size\x18\x03 \x01(\rR\bpageSize\x12\x14\n" +
-	"\x05total\x18\x04 \x01(\x04R\x05total2\xc6\x02\n" +
+	"\x05total\x18\x04 \x01(\x04R\x05total2\xca\x02\n" +
 	"\vTaskService\x12?\n" +
 	"\n" +
-	"CreateTask\x12\x17.task.CreateTaskRequest\x1a\x18.task.CreateTaskResponse\x126\n" +
-	"\aGetTask\x12\x14.task.GetTaskRequest\x1a\x15.task.GetTaskResponse\x12?\n" +
+	"CreateTask\x12\x17.task.CreateTaskRequest\x1a\x18.task.CreateTaskResponse\x12:\n" +
+	"\vGetTaskById\x12\x14.task.GetTaskRequest\x1a\x15.task.GetTaskResponse\x12?\n" +
 	"\n" +
 	"UpdateTask\x12\x17.task.UpdateTaskRequest\x1a\x18.task.UpdateTaskResponse\x12?\n" +
 	"\n" +
@@ -679,12 +679,12 @@ var file_proto_task_task_proto_depIdxs = []int32{
 	0,  // 3: task.UpdateTaskResponse.task:type_name -> task.Task
 	0,  // 4: task.ListTasksResponse.tasks:type_name -> task.Task
 	1,  // 5: task.TaskService.CreateTask:input_type -> task.CreateTaskRequest
-	3,  // 6: task.TaskService.GetTask:input_type -> task.GetTaskRequest
+	3,  // 6: task.TaskService.GetTaskById:input_type -> task.GetTaskRequest
 	5,  // 7: task.TaskService.UpdateTask:input_type -> task.UpdateTaskRequest
 	7,  // 8: task.TaskService.DeleteTask:input_type -> task.DeleteTaskRequest
 	9,  // 9: task.TaskService.ListTasks:input_type -> task.ListTasksRequest
 	2,  // 10: task.TaskService.CreateTask:output_type -> task.CreateTaskResponse
-	4,  // 11: task.TaskService.GetTask:output_type -> task.GetTaskResponse
+	4,  // 11: task.TaskService.GetTaskById:output_type -> task.GetTaskResponse
 	6,  // 12: task.TaskService.UpdateTask:output_type -> task.UpdateTaskResponse
 	8,  // 13: task.TaskService.DeleteTask:output_type -> task.DeleteTaskResponse
 	10, // 14: task.TaskService.ListTasks:output_type -> task.ListTasksResponse

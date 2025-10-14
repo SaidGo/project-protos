@@ -40,7 +40,7 @@ message ListTasksResponse {
 // gRPC
 service TaskService {
   rpc CreateTask (CreateTaskRequest) returns (CreateTaskResponse);
-  rpc GetTask    (GetTaskRequest)    returns (GetTaskResponse);
+  rpc GetTaskById (GetTaskRequest)    returns (GetTaskResponse);
   rpc UpdateTask (UpdateTaskRequest) returns (UpdateTaskResponse);
   rpc DeleteTask (DeleteTaskRequest) returns (DeleteTaskResponse);
   rpc ListTasks  (ListTasksRequest)  returns (ListTasksResponse);
